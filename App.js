@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View, Image } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput } from 'react-native';
 import { NativeBaseProvider, Box } from 'native-base';
 import React from 'react';
 import { Button } from 'native-base';
-import { TextInput } from 'react-native-web';
 
 import logo from './assets/logo.svg';
 import icon_email from './assets/icon_email.svg';
@@ -69,7 +68,6 @@ const styles = StyleSheet.create({
     height: 150,
   },
   label: {
-    fontFamily: 'Roboto',
     fontStyle: 'normal',
     fontWeight: '700',
     fontSize: 20,
@@ -102,7 +100,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: '30%',
   },
   buttonText: {
-    fontFamily: 'Roboto',
     fontStyle: 'normal',
     fontWeight: '700',
     fontSize: 14,
